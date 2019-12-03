@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #e1e1ff;
+    font-size: 62.5%;
+}
+
+body {
+    background: #fff;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    max-width: 65rem;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+}
+
+.brand-logo {
+    width: 25rem;
+    margin: 1rem auto;
+}
+
+.brand-logo img {
+    width: 100%;
+}
+
+.brand-title {
+    color: #b1aed4;
+    font-size: 2.2rem;
+    margin-bottom: .6rem;
+}
+
+.subject {
+    color: #454562;
+    font-size: 2.4rem;
+}
+
+main {
+    background: #6c63ff;
+    width: 60rem;
+    margin: 3rem auto;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.main__text--heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.main__text--paragraph {
+    font-size: 1.8rem;
+    letter-spacing: .2rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.main__text--certificate {
+    font-size: 1.8rem;
+    margin-bottom: 1.4rem;
+}
+
+.btn {
+    text-decoration: none;
+    color: #333;
+    background: #cdceeb;
+    padding: 1.4rem 2rem;
+    display: inline-block;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.main__text--regards {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+}
